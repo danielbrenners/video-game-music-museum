@@ -29,6 +29,12 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+@media (max-width: 1000px) {
+  .root {
+    flex-direction: column;
+  }
 
   .root h2 {
     width: 100%;
