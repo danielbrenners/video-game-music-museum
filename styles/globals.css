@@ -59,4 +59,5 @@ a {
 :root {
   --color-border: #ddd;
   --breakpoint-mobile: 650px;
+  --card-padding: 2rem;
 }

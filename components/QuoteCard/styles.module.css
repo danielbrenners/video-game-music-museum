@@ -1,0 +1,24 @@
+.root {
+  width: 33%;
+  height: 500px;
+  border: 1px solid var(--color-border);
+  padding: var(--card-padding);
+  text-align: left;
+  color: inherit;
+}
+
+.root h2 {
+  font-size: 2rem;
+}
+
+.root p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 650px) {
+  .root {
+    width: 100%;
+  }
+}

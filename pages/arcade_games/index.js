@@ -1,10 +1,11 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "./styles.module.css";
 import Layout from "../../components/Layout";
 import Grid from "../../components/Grid";
-import Card from "../../components/Card";
 import IntroContent from "../../components/IntroContent";
+import LabelCard from "../../components/LabelCard";
+import ImgCard from "../../components/ImgCard";
+import QuoteCard from "../../components/QuoteCard";
 
 export default function ArcadeGames() {
   return (
@@ -42,10 +43,30 @@ export default function ArcadeGames() {
               },
             ]}
           />
-          <Card href="arcade_games" title="Arcade Games" description="Descr" />
-          <Card href="apple_ii" title="Apple II" description="Descr" />
-          <Card href="atari_2600" title="Atari 2600" description="Descr" />
-          <Card href="commodore_64" title="Commodore 64" description="Descr" />
+          <LabelCard
+            title="Donkey Kong Country"
+            subtitle="Rare (1995)"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida lacus dui id elementum elementum ut mattis facilisis. Risus amet, vestibulum pulvinar congue etiam nisl tempor. 
+
+            Nunc, dolor ultrices habitasse dui lectus tincidunt amet sed. Malesuada sit aliquam egestas aliquet nunc egestas nisl netus condimentum.
+             "
+          />
+          <LabelCard
+            title="Donkey Kong Country"
+            subtitle="Rare (1995)"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida lacus dui id elementum elementum ut mattis facilisis. Risus amet, vestibulum pulvinar congue etiam nisl tempor. 
+
+            Nunc, dolor ultrices habitasse dui lectus tincidunt amet sed. Malesuada sit aliquam egestas aliquet nunc egestas nisl netus condimentum.
+             "
+          />
+          <ImgCard size="half" subtitle1="Figure 1. Hello world" />
+          <ImgCard size="half" subtitle1="Figure 1. Hello world" />
+          <ImgCard size="full" subtitle1="Figure 1. Hello world" />
+          <ImgCard size="twoThirds" subtitle1="Figure 1. Hello world" />
+          <QuoteCard
+            quote="hello there my name is Daniel"
+            author="Daniel Brenners"
+          />
         </Grid>
       </Layout>
     </>
