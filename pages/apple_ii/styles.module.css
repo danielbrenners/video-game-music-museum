@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+  margin-bottom: 6rem;
+}
+
+.heroContent {
+  width: 50%;
+  height: 300px;
+}
+
+.heroImg {
+  background-color: aqua;
+  width: 50%;
+  height: 300px;
+}
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 3rem;
+  text-align: left;
+}
+
+.title,
+.description {
+  text-align: left;
+}
+
+.description {
+  margin: 1rem 0 6rem 0;
+  line-height: 1.5;
+  font-size: 1.125rem;
+}
+
+@media (max-width: 650px) {
+  .header {
+    flex-direction: column;
+  }
+  .heroContent {
+    width: 100%;
+  }
+  .heroImg {
+    width: 100%;
+  }
+}

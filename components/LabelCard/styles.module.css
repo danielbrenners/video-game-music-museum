@@ -1,5 +1,6 @@
 .root {
   width: 50%;
+  height: 300px;
   display: flex;
   border: 1px solid var(--color-border);
   padding: var(--card-padding);
@@ -21,7 +22,7 @@
   width: 50%;
   margin: 0;
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: var(--line-height);
 }
 
 @media (max-width: 650px) {

@@ -4,7 +4,7 @@ import Layout from "../../components/Layout";
 import Grid from "../../components/Grid";
 import IntroContent from "../../components/IntroContent";
 import LabelCard from "../../components/LabelCard";
-import ImgCard from "../../components/ImgCard";
+import MediaCard from "../../components/MediaCard";
 import QuoteCard from "../../components/QuoteCard";
 
 export default function ArcadeGames() {
@@ -22,7 +22,7 @@ export default function ArcadeGames() {
             <div>
               <h1 className={styles.title}>Arcade Games</h1>
 
-              <p className={styles.description}>1972-1989</p>
+              <p className={styles.description}>1972-1981</p>
             </div>
           </div>
           <div className={styles.heroImg}></div>
@@ -32,41 +32,64 @@ export default function ArcadeGames() {
           <IntroContent
             content={[
               {
-                title: "FM Synthesis",
+                title: "The Beginning",
                 description:
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus nunc, aliquet ipsum tristique bibendum. A malesuada eget in viverra aenean lectus lectus. Velit, tortor mauris nulla vel posuere ullamcorper. Facilisis eu blandit mi, nibh in habitant cras ut leo. Convallis elementum viverra dignissim congue fames fermentum ut tempor varius. Sit vitae id augue vestibulum feugiat vitae hac amet enim. Parturient arcu laoreet a ac aenean. Feugiat vestibulum rhoncus, nunc fringilla. Consequat, est, natoque vitae eros, nunc luctus at scelerisque. Pulvinar tempor eu pellentesque ut. Porttitor arcu adipiscing at sed. Urna facilisi tincidunt ullamcorper id et. Vulputate ultrices iaculis dictum tellus. Nam consequat suspendisse pellentesque pharetra morbi nibh eget fames pellentesque.",
-              },
-              {
-                title: "Five Voices",
-                description:
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus nunc, aliquet ipsum tristique bibendum. A malesuada eget in viverra aenean lectus lectus. Velit, tortor mauris nulla vel posuere ullamcorper. Facilisis eu blandit mi, nibh in habitant cras ut leo. Convallis elementum viverra dignissim congue fames fermentum ut tempor varius. Sit vitae id augue vestibulum feugiat vitae hac amet enim. Parturient arcu laoreet a ac aenean. Feugiat vestibulum rhoncus, nunc fringilla. Consequat, est, natoque vitae eros, nunc luctus at scelerisque. Pulvinar tempor eu pellentesque ut. Porttitor arcu adipiscing at sed. Urna facilisi tincidunt ullamcorper id et. Vulputate ultrices iaculis dictum tellus. Nam consequat suspendisse pellentesque pharetra morbi nibh eget fames pellentesque.",
+                  "The arcade era introduced video games to the masses. In order to make them more interactive, amplified speakers were integrated into PCB boards to attract the first generation of video game players. These sounds began as rudimentary 'blips' and eventually into composed songs that played a integral role in the game itself. The advances in arcade game music paved the way for home video game music for decades to come.",
               },
             ]}
           />
           <LabelCard
-            title="Donkey Kong Country"
-            subtitle="Rare (1995)"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida lacus dui id elementum elementum ut mattis facilisis. Risus amet, vestibulum pulvinar congue etiam nisl tempor. 
-
-            Nunc, dolor ultrices habitasse dui lectus tincidunt amet sed. Malesuada sit aliquam egestas aliquet nunc egestas nisl netus condimentum.
-             "
+            title="Pong"
+            subtitle="Atari, 1972"
+            description="The first video game with sound. The sound, from which the name originates, was generated from a built in ampilifier. The wall sound and the paddle sound create an octave, while the point sound is a disharmonic semitone to be more jarring."
           />
+
+          <MediaCard size="half" subtitle1="Figure 1. Hello world" />
+          <MediaCard size="half" subtitle1="Figure 1. Hello world" />
+
           <LabelCard
-            title="Donkey Kong Country"
-            subtitle="Rare (1995)"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida lacus dui id elementum elementum ut mattis facilisis. Risus amet, vestibulum pulvinar congue etiam nisl tempor. 
+            title="Gun Fight"
+            subtitle="Taito, 1975"
+            description="The first video game with music. Although not during gameplay, this represented the first time music was used to create an atmosphere in a game."
+          />
 
-            Nunc, dolor ultrices habitasse dui lectus tincidunt amet sed. Malesuada sit aliquam egestas aliquet nunc egestas nisl netus condimentum.
-             "
+          <LabelCard
+            title="Space Invaders"
+            subtitle="Taito, 1978"
+            description="The first game to have continuous music, with sound effects overlaid during game play. The increase in tempo of the iconic four tones was due to a programming bug, but was kept as it creates a feeling of urgency for the player."
           />
-          <ImgCard size="half" subtitle1="Figure 1. Hello world" />
-          <ImgCard size="half" subtitle1="Figure 1. Hello world" />
-          <ImgCard size="full" subtitle1="Figure 1. Hello world" />
-          <ImgCard size="twoThirds" subtitle1="Figure 1. Hello world" />
+          <MediaCard size="half" subtitle1="Figure 1. Hello world" />
+
+          <MediaCard size="twoThirds" subtitle1="Figure 1. Hello world" />
           <QuoteCard
-            quote="hello there my name is Daniel"
-            author="Daniel Brenners"
+            quote="That seemingly pedestrian four-note loop might stir us in the most primitive of ways, but that it stirs us at all is worthy of note."
+            author="Andrew Schartmann"
           />
+
+          <MediaCard size="half" subtitle1="Figure 1. Hello world" />
+
+          <LabelCard
+            title="Pac-Man"
+            subtitle="Namco, 1980"
+            description="First game with cutscenes that included sound."
+          />
+
+          <LabelCard
+            title="Frogger"
+            subtitle="Konami, 1981"
+            description="First game to swap out background music in between levels."
+          />
+
+          <MediaCard size="half" subtitle1="Figure 1. Hello world" />
+          <MediaCard size="half" subtitle1="Figure 1. Hello world" />
+
+          <LabelCard
+            title="Vanguard"
+            subtitle="TOSE, 1981"
+            description="Featuring music from Star Trek, this was the first game to contain licensed music. It also was one of the first instances of digital voice effects."
+          />
+
+          <MediaCard size="full" subtitle1="Figure 1. Hello world" />
         </Grid>
       </Layout>
     </>

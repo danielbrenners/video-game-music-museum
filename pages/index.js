@@ -24,32 +24,44 @@ export default function Home() {
         <Grid>
           <ObjectCard
             href="arcade_games"
-            title="Arcade Games"
-            description="Descr"
+            src="/images/arcade_games/arcade_games_1.jpg"
+            imgWidth="30%"
           />
-          <ObjectCard href="apple_ii" title="Apple II" description="Descr" />
+
+          <ObjectCard
+            href="apple_ii"
+            src="/images/apple_ii/apple_ii_1.jpg"
+            imgWidth="30%"
+          />
+
           <ObjectCard
             href="atari_2600"
-            title="Atari 2600"
-            description="Descr"
+            src="/images/atari_2600/atari_2600_2.jpg"
+            imgWidth="30%"
           />
+
           <ObjectCard
             href="commodore_64"
-            title="Commodore 64"
-            description="Descr"
+            src="/images/commodore_64/commodore_64_2.jpg"
+            imgWidth="30%"
           />
-          <ObjectCard href="nes" title="NES" description="Descr" />
+          <ObjectCard href="nes" src="/images/nes/nes_2.jpg" imgWidth="30%" />
           <ObjectCard
             href="commodore_amiga"
-            title="Commodore Amiga"
-            description="Descr"
+            src="/images/commodore_amiga/commodore_amiga_1.jpg"
+            imgWidth="30%"
           />
           <ObjectCard
             href="sega_genesis"
-            title="Sega Genesis"
-            description="Descr"
+            src="/images/sega_genesis/sega_genesis_2.jpg"
+            imgWidth="30%"
           />
-          <ObjectCard href="snes" title="SNES" description="Descr" />
+          <ObjectCard
+            href="snes"
+            src="/images/snes/snes_1.jpg"
+            imgWidth="30%"
+          />
+          {/*
           <ObjectCard
             href="nintendo_64"
             title="Nintendo 64"
@@ -60,6 +72,7 @@ export default function Home() {
             title="Playstation 2"
             description="Descr"
           />
+  */}
         </Grid>
       </Layout>
     </>
