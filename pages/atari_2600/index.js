@@ -6,6 +6,7 @@ import IntroContent from "../../components/IntroContent";
 import LabelCard from "../../components/LabelCard";
 import MediaCard from "../../components/MediaCard";
 import QuoteCard from "../../components/QuoteCard";
+import Image from "next/image";
 
 export default function Atari2600() {
   return (
@@ -25,7 +26,14 @@ export default function Atari2600() {
               <p className={styles.description}>1977</p>
             </div>
           </div>
-          <div className={styles.heroImg}></div>
+          <div className={styles.heroImg}>
+            <Image
+              src={"/images/atari_2600/atari_2600_1.jpg"}
+              layout="fill"
+              objectFit="contain"
+              objectPosition="right"
+            />
+          </div>
         </div>
 
         <Grid>

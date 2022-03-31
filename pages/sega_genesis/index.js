@@ -6,6 +6,7 @@ import IntroContent from "../../components/IntroContent";
 import LabelCard from "../../components/LabelCard";
 import MediaCard from "../../components/MediaCard";
 import QuoteCard from "../../components/QuoteCard";
+import Image from "next/image";
 
 export default function SegaGenesis() {
   return (
@@ -25,7 +26,14 @@ export default function SegaGenesis() {
               <p className={styles.description}>1989</p>
             </div>
           </div>
-          <div className={styles.heroImg}></div>
+          <div className={styles.heroImg}>
+            <Image
+              src={"/images/sega_genesis/sega_genesis_1.jpg"}
+              layout="fill"
+              objectFit="contain"
+              objectPosition="right"
+            />
+          </div>
         </div>
 
         <Grid>

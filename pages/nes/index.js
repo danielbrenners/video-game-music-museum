@@ -6,6 +6,7 @@ import IntroContent from "../../components/IntroContent";
 import LabelCard from "../../components/LabelCard";
 import MediaCard from "../../components/MediaCard";
 import QuoteCard from "../../components/QuoteCard";
+import Image from "next/image";
 
 export default function NES() {
   return (
@@ -25,7 +26,14 @@ export default function NES() {
               <p className={styles.description}>1983</p>
             </div>
           </div>
-          <div className={styles.heroImg}></div>
+          <div className={styles.heroImg}>
+            <Image
+              src={"/images/nes/nes_1.jpg"}
+              layout="fill"
+              objectFit="contain"
+              objectPosition="right"
+            />
+          </div>
         </div>
 
         <Grid>
