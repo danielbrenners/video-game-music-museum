@@ -8,6 +8,7 @@ export default function IntroContent({ content }) {
         return (
           <div
             className={cx(styles.block, { [styles.firstBlock]: index === 0 })}
+            key={index}
           >
             <h2>{block.title}</h2>
             <p>{block.description}</p>
