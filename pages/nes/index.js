@@ -7,6 +7,7 @@ import LabelCard from "../../components/LabelCard";
 import MediaCard from "../../components/MediaCard";
 import QuoteCard from "../../components/QuoteCard";
 import Image from "next/image";
+import SoundCard from "../../components/SoundCard";
 
 export default function NES() {
   return (
@@ -24,6 +25,13 @@ export default function NES() {
               <h1 className={styles.title}>NES</h1>
 
               <p className={styles.description}>1983</p>
+              <div style={{ display: "flex" }}>
+                <SoundCard waveType="square" />
+                <SoundCard waveType="square" />
+                <SoundCard waveType="triangle" />
+                <SoundCard waveType="noise" />
+                <SoundCard waveType="sample" />
+              </div>
             </div>
           </div>
           <div className={styles.heroImg}>

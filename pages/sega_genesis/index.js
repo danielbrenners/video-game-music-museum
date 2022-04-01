@@ -7,6 +7,7 @@ import LabelCard from "../../components/LabelCard";
 import MediaCard from "../../components/MediaCard";
 import QuoteCard from "../../components/QuoteCard";
 import Image from "next/image";
+import SoundCard from "../../components/SoundCard";
 
 export default function SegaGenesis() {
   return (
@@ -24,6 +25,9 @@ export default function SegaGenesis() {
               <h1 className={styles.title}>Sega Genesis</h1>
 
               <p className={styles.description}>1989</p>
+              <div style={{ display: "flex" }}>
+                <SoundCard waveType="fm" />
+              </div>
             </div>
           </div>
           <div className={styles.heroImg}>

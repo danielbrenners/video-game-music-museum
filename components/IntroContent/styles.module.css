@@ -18,6 +18,9 @@
 .firstBlock {
   border-top: 1px solid var(--color-border);
 }
+.lastBlock {
+  border-bottom: 1px solid var(--color-border);
+}
 
 .block h2 {
   width: 50%;

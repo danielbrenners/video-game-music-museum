@@ -7,6 +7,7 @@ import LabelCard from "../../components/LabelCard";
 import MediaCard from "../../components/MediaCard";
 import QuoteCard from "../../components/QuoteCard";
 import Image from "next/image";
+import SoundCard from "../../components/SoundCard";
 
 export default function Atari2600() {
   return (
@@ -24,6 +25,10 @@ export default function Atari2600() {
               <h1 className={styles.title}>Atari 2600</h1>
 
               <p className={styles.description}>1977</p>
+              <div style={{ display: "flex" }}>
+                <SoundCard waveType="square" />
+                <SoundCard waveType="noise" />
+              </div>
             </div>
           </div>
           <div className={styles.heroImg}>
@@ -46,6 +51,7 @@ export default function Atari2600() {
               },
             ]}
           />
+
           <LabelCard
             title="Combat"
             subtitle="Atari, 1977"

@@ -7,6 +7,7 @@ import LabelCard from "../../components/LabelCard";
 import MediaCard from "../../components/MediaCard";
 import QuoteCard from "../../components/QuoteCard";
 import Image from "next/image";
+import SoundCard from "../../components/SoundCard";
 
 export default function AppleII() {
   return (
@@ -24,6 +25,9 @@ export default function AppleII() {
               <h1 className={styles.title}>Apple II</h1>
 
               <p className={styles.description}>1977</p>
+              <div style={{ display: "flex" }}>
+                <SoundCard waveType="square" />
+              </div>
             </div>
           </div>
           <div className={styles.heroImg}>

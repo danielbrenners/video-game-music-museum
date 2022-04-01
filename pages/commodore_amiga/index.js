@@ -7,6 +7,7 @@ import LabelCard from "../../components/LabelCard";
 import MediaCard from "../../components/MediaCard";
 import QuoteCard from "../../components/QuoteCard";
 import Image from "next/image";
+import SoundCard from "../../components/SoundCard";
 
 export default function CommodoreAmiga() {
   return (
@@ -24,6 +25,12 @@ export default function CommodoreAmiga() {
               <h1 className={styles.title}>Commodore Amiga</h1>
 
               <p className={styles.description}>1985</p>
+              <div style={{ display: "flex" }}>
+                <SoundCard waveType="sample" />
+                <SoundCard waveType="sample" />
+                <SoundCard waveType="sample" />
+                <SoundCard waveType="sample" />
+              </div>
             </div>
           </div>
           <div className={styles.heroImg}>

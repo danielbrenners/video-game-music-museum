@@ -7,7 +7,11 @@ export default function IntroContent({ content }) {
       {content.map((block, index) => {
         return (
           <div
-            className={cx(styles.block, { [styles.firstBlock]: index === 0 })}
+            className={cx(
+              styles.block,
+              { [styles.firstBlock]: index === 0 },
+              { [styles.lastBlock]: index === content.length - 1 }
+            )}
             key={index}
           >
             <h2>{block.title}</h2>
