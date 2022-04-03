@@ -57,7 +57,7 @@ export default function NES() {
           <LabelCard
             title="The Legend of Zelda"
             subtitle="Nintendo, 1986"
-            description="Tjarring."
+            description="Composer Koji Kondo had planned to use Maurice Ravel's Boléro as the title theme, but was forced to change it late in the development cycle after learning that the copyright for the orchestral piece had not yet expired. As a result, Kondo wrote a new arrangement of the overworld theme within one day, which has become an iconic motif echoing throughout continued entries of the series.."
             audioSrc="/audio/nes/zelda.mp3"
           />
 
@@ -80,14 +80,21 @@ export default function NES() {
           <LabelCard
             title="Super Mario Bros."
             subtitle="Nintendo, 1986"
-            description="The first video game with music. Although not during gameplay, this represented the first time music was used to create an atmosphere in a game."
+            description="One of the most famous video game themes of all time, composer Koji Kondo commented that the theme reflects the action-oriented gameplay of the series."
             audioSrc="/audio/nes/mario.mp3"
           />
+
+          <QuoteCard
+            quote="...you have such limited resources. The way that you have to write, in order to create rich
+            textures, you have to write a lot of rhythmic kinds of stuff"
+            author="Rob Hubbard"
+          />
+          <MediaCard size="twoThirds" src1="/images/nes/nes_3.jpg" />
 
           <LabelCard
             title="Metroid"
             subtitle="Nintendo, 1986"
-            description="The first game to have continuous music, with sound effects overlaid during game play. The increase in tempo of the iconic four tones was due to a programming bug, but was kept as it creates a feeling of urgency for the player."
+            description="Composed by Hirokazu Tanaka, the theme from Metroid reflects the ability of the sound capabilities to create a dreadful atmosphere that matches the game's environment."
             audioSrc="/audio/nes/metroid.mp3"
           />
           <MediaCard
@@ -95,12 +102,6 @@ export default function NES() {
             subtitle1="Metroid cover art."
             src1="/images/nes/metroid.jpg"
           />
-          <QuoteCard
-            quote="...you have such limited resources. The way that you have to write, in order to create rich
-            textures, you have to write a lot of rhythmic kinds of stuff"
-            author="Rob Hubbard"
-          />
-          <MediaCard size="twoThirds" src1="/images/nes/nes_3.jpg" />
 
           {/*<MediaCard size="full" subtitle1="Figure 1. Hello world" />*/}
         </Grid>

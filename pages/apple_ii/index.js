@@ -53,7 +53,7 @@ export default function AppleII() {
           <LabelCard
             title="Karateka"
             subtitle="Jordan Mechner, 1984"
-            description="One of the earliest martial arts fighting games, inspired by Japanese culture and early Disney animated films and silent pictures. "
+            description="One of the earliest martial arts fighting games, inspired by Japanese culture and early Disney animated films and silent pictures. You can hear the clicks and tones used to simulate fighting sounds and basic background music."
             audioSrc="/audio/apple_ii/karateka.mp3"
           />
 

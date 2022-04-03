@@ -55,7 +55,7 @@ export default function Atari2600() {
           <LabelCard
             title="Combat"
             subtitle="Atari, 1977"
-            description="The first video game with sound. The sound, from which the name originates, was generated from a built in ampilifier. The wall sound and the paddle sound create an octave, while the point sound is a disharmonic semitone to be more jarring."
+            description="Combat uses pitch tones for bullets and the noise channel for explosion sound effects."
             audioSrc="/audio/atari_2600/combat.mp3"
           />
 

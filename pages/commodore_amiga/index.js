@@ -48,22 +48,25 @@ export default function CommodoreAmiga() {
             content={[
               {
                 title: "Sampling",
-                description: "asdfasdf",
+                description:
+                  "Allowed for the playback of arbitrary sound. Dedicated samplers were extremely expensive, but as cost lowered they made there way into consoles - providing new ways for composers to experiment with sounds and music. ",
               },
               {
                 title: "Stereo Sound",
-                description: "asdfasdf.",
+                description:
+                  "Up until now, sound was limited to monophonic reproduction. Stereo sound allowed for more complicated soundscapes and more interesting compositions.",
               },
               {
                 title: "Mod Trackers",
-                description: "asdfasdf.",
+                description:
+                  "A new type of music composition program. It allowed for the easy control of hardware, and democratized video game music development as it was a cost-effective and user-friendly way of composing.",
               },
             ]}
           />
           <LabelCard
             title="Turrican II: The Final Fight"
             subtitle="Factor Five, 1991"
-            description="asdfasdf"
+            description="One of the first instances of a music menu accessible within the game, where all the in-game music is available to be listened to."
             audioSrc="/audio/commodore_amiga/turrican.mp3"
           />
 
@@ -80,9 +83,10 @@ export default function CommodoreAmiga() {
           <LabelCard
             title="Formula One Grand Prix"
             subtitle="MicroProse, 1991"
-            description="asdfasdf"
+            description="New stereo sound capabilities turn what would otherwise be a a busy drum beat into a more modern sounding kit."
             audioSrc="/audio/commodore_amiga/grand-prix.mp3"
           />
+          {/*}
 
           <LabelCard
             title="Bubble Bobble"
@@ -96,6 +100,7 @@ export default function CommodoreAmiga() {
             subtitle1="Bubble Bobble cover art."
             src1="/images/commodore_amiga/bubble-bobble.jpg"
           />
+          */}
           {/*<MediaCard size="full" subtitle1="Figure 1. Hello world" />*/}
         </Grid>
       </Layout>

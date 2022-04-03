@@ -56,7 +56,7 @@ export default function Commodore64() {
           <LabelCard
             title="Paperboy"
             subtitle="Midway Games, 1985"
-            description="asdfasdf"
+            description="Although the Commodore only had three active voices, Paperboy shows how developers could dynamically assign instruments during the song to create the illusion of more instruments."
             audioSrc="/audio/commodore_64/paperboy.mp3"
           />
 
@@ -73,14 +73,14 @@ export default function Commodore64() {
           <LabelCard
             title="Commando"
             subtitle="Data East, 1985"
-            description="asdfasdf"
+            description="An early Commodore release, Commando took the theme from the original game and updated it with the new hardware."
             audioSrc="/audio/commodore_64/commando.mp3"
           />
 
           <LabelCard
             title="Myth"
             subtitle="System 3, 1989"
-            description="asdfasdf"
+            description="A later release, Myth is an example that uses filtering techniques that were learned as developers became more familiar with the new hardware capabilities.'"
             audioSrc="/audio/commodore_64/myth.mp3"
           />
 

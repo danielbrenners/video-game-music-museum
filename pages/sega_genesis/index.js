@@ -45,14 +45,15 @@ export default function SegaGenesis() {
             content={[
               {
                 title: "FM Synthesis",
-                description: "asdfasdf",
+                description:
+                  "Owes it's popularity to the DX7 keyboard, which has become synonymous with 1980's music. Frequency modulation can approximate a much wider array of instruments and sound waves by altering a wave's frequency in accordance with another wave, known as the modulator.",
               },
             ]}
           />
           <LabelCard
             title="Ecco: The Tides of Time"
             subtitle="Sega, 1994"
-            description="asdfasdf"
+            description="Creator Annunziata worked with the music team on the soundtrack, playing them songs by Pink Floyd to illustrate the feeling he was aiming for."
             audioSrc="/audio/sega_genesis/ecco.mp3"
           />
 
@@ -69,7 +70,7 @@ export default function SegaGenesis() {
           <LabelCard
             title="Sonic the Hedgehog"
             subtitle="Sega, 1991"
-            description="asdfasdf"
+            description="Composer Masato Nakamura (known for being the bassist and songwriter of J-Pop band Dreams Come True) treated Sonic as a film and designed the music around the atmosphere that he felt from the images of the stages"
             audioSrc="/audio/sega_genesis/sonic.mp3"
           />
 

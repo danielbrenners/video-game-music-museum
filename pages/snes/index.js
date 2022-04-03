@@ -53,14 +53,14 @@ export default function SNES() {
               {
                 title: "8 Sample Channels",
                 description:
-                  "Thr (PCM), it was rarely used due to the memory restrictions.",
+                  "Another sample-based system (similar to the Amiga), but with more channels. Nintendo shipped developer kits with sampler libraries so composers could create music quickly. The system only had 64 kilobytes of audio RAM though, so samples needed to be relatively short.",
               },
             ]}
           />
           <LabelCard
             title="Donkey Kong Country 2"
             subtitle="Rare, 1995"
-            description="Tjarring."
+            description="Composer David Wise was inspired by the Korg Waveform, and sampled from this synthesizer often, creating the unique sound of the Donkey Kong series."
             audioSrc="/audio/snes/donkey-kong.mp3"
           />
           <MediaCard
@@ -76,7 +76,7 @@ export default function SNES() {
           <LabelCard
             title="Chrono Trigger"
             subtitle="Square, 1995"
-            description="The first video game with music. Although not during gameplay, this represented the first time music was used to create an atmosphere in a game."
+            description="With 8 channels of samples, Chrono Trigger shows how composers could create a complex, orechestrated sound by sampling many instruments at once."
             audioSrc="/audio/snes/chrono-trigger.mp3"
           />
           <MediaCard size="twoThirds" src1="/images/snes/snes_3.jpg" />
@@ -87,7 +87,7 @@ export default function SNES() {
           <LabelCard
             title="Mega Man X"
             subtitle="Capcom, 1993"
-            description="The first game to have continuous music, with sound effects overlaid during game play. The increase in tempo of the iconic four tones was due to a programming bug, but was kept as it creates a feeling of urgency for the player."
+            description="Mega Man X represented a reboot of long-standing franchise known for its fast, upbeat music. But with a more serious, mature take on this legacy brand a new sound came with it - one that illustrated the SNES’ amazing audio capabilities. "
             audioSrc="/audio/snes/mega-man-x.mp3"
           />
           <MediaCard
