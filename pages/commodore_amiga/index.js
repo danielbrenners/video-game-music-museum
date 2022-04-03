@@ -64,27 +64,39 @@ export default function CommodoreAmiga() {
             title="Turrican II: The Final Fight"
             subtitle="Factor Five, 1991"
             description="asdfasdf"
+            audioSrc="/audio/commodore_amiga/turrican.mp3"
           />
 
-          <MediaCard size="half" subtitle1="Figure 1. Hello world" />
-
-          <MediaCard size="half" subtitle1="Figure 1. Hello world" />
-
+          <MediaCard
+            size="portrait"
+            subtitle1="Turrican II: Final Fight cover art."
+            src1="/images/commodore_amiga/turrican.jpg"
+          />
+          <MediaCard
+            size="portrait"
+            subtitle1="Formula One Grand Prix cover art."
+            src1="/images/commodore_amiga/grand-prix.jpg"
+          />
           <LabelCard
             title="Formula One Grand Prix"
             subtitle="MicroProse, 1991"
             description="asdfasdf"
+            audioSrc="/audio/commodore_amiga/grand-prix.mp3"
           />
 
           <LabelCard
             title="Bubble Bobble"
             subtitle="Taito, 1986"
             description="asdfasdf"
+            audioSrc="/audio/commodore_amiga/bubble-bobble.mp3"
           />
 
-          <MediaCard size="half" subtitle1="Figure 1. Hello world" />
-
-          <MediaCard size="full" subtitle1="Figure 1. Hello world" />
+          <MediaCard
+            size="portrait"
+            subtitle1="Bubble Bobble cover art."
+            src1="/images/commodore_amiga/bubble-bobble.jpg"
+          />
+          {/*<MediaCard size="full" subtitle1="Figure 1. Hello world" />*/}
         </Grid>
       </Layout>
     </>

@@ -57,27 +57,39 @@ export default function Commodore64() {
             title="Paperboy"
             subtitle="Midway Games, 1985"
             description="asdfasdf"
+            audioSrc="/audio/commodore_64/paperboy.mp3"
           />
 
-          <MediaCard size="half" subtitle1="Figure 1. Hello world" />
-
-          <MediaCard size="half" subtitle1="Figure 1. Hello world" />
-
+          <MediaCard
+            size="portrait"
+            subtitle1="Paperboy cover art."
+            src1="/images/commodore_64/paperboy.jpg"
+          />
+          <MediaCard
+            size="portrait"
+            subtitle1="Commando cover art."
+            src1="/images/commodore_64/commando.jpg"
+          />
           <LabelCard
             title="Commando"
             subtitle="Data East, 1985"
             description="asdfasdf"
+            audioSrc="/audio/commodore_64/commando.mp3"
           />
 
           <LabelCard
             title="Myth"
             subtitle="System 3, 1989"
             description="asdfasdf"
+            audioSrc="/audio/commodore_64/myth.mp3"
           />
 
-          <MediaCard size="half" subtitle1="Figure 1. Hello world" />
-
-          <MediaCard size="full" subtitle1="Figure 1. Hello world" />
+          <MediaCard
+            size="portrait"
+            subtitle1="Myth cover art."
+            src1="/images/commodore_64/myth.jpg"
+          />
+          {/*<MediaCard size="full" subtitle1="Figure 1. Hello world" />*/}
         </Grid>
       </Layout>
     </>

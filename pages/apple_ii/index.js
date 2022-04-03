@@ -54,11 +54,15 @@ export default function AppleII() {
             title="Karateka"
             subtitle="Jordan Mechner, 1984"
             description="One of the earliest martial arts fighting games, inspired by Japanese culture and early Disney animated films and silent pictures. "
+            audioSrc="/audio/apple_ii/karateka.mp3"
           />
 
-          <MediaCard size="half" subtitle1="Figure 1. Hello world" />
-
-          <MediaCard size="full" subtitle1="Figure 1. Hello world" />
+          <MediaCard
+            size="portrait"
+            subtitle1="Karateka cover art.."
+            src1="/images/apple_ii/karateka.jpg"
+          />
+          <MediaCard size="full" src1="/images/apple_ii/apple_ii_3.jpg" />
         </Grid>
       </Layout>
     </>

@@ -58,40 +58,51 @@ export default function NES() {
             title="The Legend of Zelda"
             subtitle="Nintendo, 1986"
             description="Tjarring."
+            audioSrc="/audio/nes/zelda.mp3"
           />
 
-          <MediaCard size="half" subtitle1="Figure 1. Hello world" />
-
-          <MediaCard size="twoThirds" subtitle1="Figure 1. Hello world" />
-
+          <MediaCard
+            size="portrait"
+            subtitle1="Zelda cover art."
+            src1="/images/nes/zelda.jpg"
+          />
+          <MediaCard size="twoThirds" src1="/images/nes/nes_4.jpg" />
           <QuoteCard
             quote="You had to employ techniques to trick the listener into thinking there was more going on than there actually was."
             author="Neil Baldwin"
           />
 
-          <MediaCard size="half" subtitle1="Figure 1. Hello world" />
-
+          <MediaCard
+            size="portrait"
+            subtitle1="Super Mario Bros. cover art."
+            src1="/images/nes/mario.jpg"
+          />
           <LabelCard
             title="Super Mario Bros."
             subtitle="Nintendo, 1986"
             description="The first video game with music. Although not during gameplay, this represented the first time music was used to create an atmosphere in a game."
+            audioSrc="/audio/nes/mario.mp3"
           />
 
           <LabelCard
             title="Metroid"
             subtitle="Nintendo, 1986"
             description="The first game to have continuous music, with sound effects overlaid during game play. The increase in tempo of the iconic four tones was due to a programming bug, but was kept as it creates a feeling of urgency for the player."
+            audioSrc="/audio/nes/metroid.mp3"
           />
-          <MediaCard size="half" subtitle1="Figure 1. Hello world" />
-
+          <MediaCard
+            size="portrait"
+            subtitle1="Metroid cover art."
+            src1="/images/nes/metroid.jpg"
+          />
           <QuoteCard
             quote="...you have such limited resources. The way that you have to write, in order to create rich
             textures, you have to write a lot of rhythmic kinds of stuff"
             author="Rob Hubbard"
           />
-          <MediaCard size="twoThirds" subtitle1="Figure 1. Hello world" />
+          <MediaCard size="twoThirds" src1="/images/nes/nes_3.jpg" />
 
-          <MediaCard size="full" subtitle1="Figure 1. Hello world" />
+          {/*<MediaCard size="full" subtitle1="Figure 1. Hello world" />*/}
         </Grid>
       </Layout>
     </>

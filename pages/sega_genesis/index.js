@@ -53,19 +53,27 @@ export default function SegaGenesis() {
             title="Ecco: The Tides of Time"
             subtitle="Sega, 1994"
             description="asdfasdf"
+            audioSrc="/audio/sega_genesis/ecco.mp3"
           />
 
-          <MediaCard size="half" subtitle1="Figure 1. Hello world" />
-
-          <MediaCard size="half" subtitle1="Figure 1. Hello world" />
-
+          <MediaCard
+            size="portrait"
+            subtitle1="Ecco: The Tides of Time cover art."
+            src1="/images/sega_genesis/ecco.jpg"
+          />
+          <MediaCard
+            size="portrait"
+            subtitle1="Sonic the Hedgehog cover art."
+            src1="/images/sega_genesis/sonic.jpg"
+          />
           <LabelCard
             title="Sonic the Hedgehog"
             subtitle="Sega, 1991"
             description="asdfasdf"
+            audioSrc="/audio/sega_genesis/sonic.mp3"
           />
 
-          <MediaCard size="full" subtitle1="Figure 1. Hello world" />
+          {/*<MediaCard size="full" subtitle1="Figure 1. Hello world" />*/}
         </Grid>
       </Layout>
     </>

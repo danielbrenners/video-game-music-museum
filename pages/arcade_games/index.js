@@ -50,54 +50,80 @@ export default function ArcadeGames() {
             title="Pong"
             subtitle="Atari, 1972"
             description="The first video game with sound. The sound, from which the name originates, was generated from a built in ampilifier. The wall sound and the paddle sound create an octave, while the point sound is a disharmonic semitone to be more jarring."
+            audioSrc="/audio/arcade_games/pong.mp3"
           />
-
-          <MediaCard size="half" subtitle1="Figure 1. Hello world" />
-          <MediaCard size="half" subtitle1="Figure 1. Hello world" />
-
+          <MediaCard
+            size="portrait"
+            subtitle1="An upright cabinet of Pong."
+            src1="/images/arcade_games/pong.jpg"
+          />
+          <MediaCard
+            size="portrait"
+            subtitle1="Gun Fight cover art."
+            src1="/images/arcade_games/gun-fight.jpg"
+          />
           <LabelCard
             title="Gun Fight"
             subtitle="Taito, 1975"
             description="The first video game with music. Although not during gameplay, this represented the first time music was used to create an atmosphere in a game."
+            audioSrc="/audio/arcade_games/gun-fight.mp3"
           />
-
           <LabelCard
             title="Space Invaders"
             subtitle="Taito, 1978"
             description="The first game to have continuous music, with sound effects overlaid during game play. The increase in tempo of the iconic four tones was due to a programming bug, but was kept as it creates a feeling of urgency for the player."
+            audioSrc="/audio/arcade_games/space-invaders.mp3"
           />
-          <MediaCard size="half" subtitle1="Figure 1. Hello world" />
-
-          <MediaCard size="twoThirds" subtitle1="Figure 1. Hello world" />
+          <MediaCard
+            size="portrait"
+            subtitle1="Space Invaders flyer art."
+            src1="/images/arcade_games/space-invaders.jpg"
+          />
+          <MediaCard
+            size="twoThirds"
+            src1="/images/arcade_games/arcade_games_3.jpg"
+          />
           <QuoteCard
             quote="That seemingly pedestrian four-note loop might stir us in the most primitive of ways, but that it stirs us at all is worthy of note."
             author="Andrew Schartmann"
           />
-
-          <MediaCard size="half" subtitle1="Figure 1. Hello world" />
-
+          <MediaCard
+            size="portrait"
+            subtitle1="Pac-Man flyer art."
+            src1="/images/arcade_games/pac-man.jpg"
+          />
           <LabelCard
             title="Pac-Man"
             subtitle="Namco, 1980"
             description="First game with cutscenes that included sound."
+            audioSrc="/audio/arcade_games/pac-man.mp3"
           />
-
           <LabelCard
             title="Frogger"
             subtitle="Konami, 1981"
             description="First game to swap out background music in between levels."
+            audioSrc="/audio/arcade_games/frogger.mp3"
           />
-
-          <MediaCard size="half" subtitle1="Figure 1. Hello world" />
-          <MediaCard size="half" subtitle1="Figure 1. Hello world" />
-
+          <MediaCard
+            size="portrait"
+            subtitle1="Frogger flyer art."
+            src1="/images/arcade_games/frogger.jpg"
+          />
+          <MediaCard
+            size="portrait"
+            subtitle1="Vanguard flyer art."
+            src1="/images/arcade_games/vanguard.jpg"
+          />
           <LabelCard
             title="Vanguard"
             subtitle="TOSE, 1981"
             description="Featuring music from Star Trek, this was the first game to contain licensed music. It also was one of the first instances of digital voice effects."
+            audioSrc="/audio/arcade_games/vanguard.mp3"
           />
 
+          {/*
           <MediaCard size="full" subtitle1="Figure 1. Hello world" />
+          */}
         </Grid>
       </Layout>
     </>

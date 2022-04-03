@@ -56,11 +56,15 @@ export default function Atari2600() {
             title="Combat"
             subtitle="Atari, 1977"
             description="The first video game with sound. The sound, from which the name originates, was generated from a built in ampilifier. The wall sound and the paddle sound create an octave, while the point sound is a disharmonic semitone to be more jarring."
+            audioSrc="/audio/atari_2600/combat.mp3"
           />
 
-          <MediaCard size="half" subtitle1="Figure 1. Hello world" />
-
-          <MediaCard size="full" subtitle1="Figure 1. Hello world" />
+          <MediaCard
+            size="portrait"
+            subtitle1="Combat promotional art."
+            src1="/images/atari_2600/combat.jpg"
+          />
+          {/*<MediaCard size="full" subtitle1="Figure 1. Hello world" />*/}
         </Grid>
       </Layout>
     </>
